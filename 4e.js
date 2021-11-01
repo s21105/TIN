@@ -3,4 +3,4 @@ function longestWord(str) {
   return word[0];
 }
 
-console.log(longestWord('I do something that I did not do'));
+console.log(longestWord("I do something that I did not do"));
