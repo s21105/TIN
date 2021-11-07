@@ -8,10 +8,10 @@ function Student(firstName, lastName, id, grades) {
         return grades.reduce((a,b)=>a+b)/grades.length;
     }
 
-    this.printsStudentInfo = function () {
+    this.printStudentInfo = function () {
         console.log("Student", firstName, lastName, "has average grade:", this.gradesAvg());
     }
 }
 
 let student = new Student("Susan", "Milton", 1, [5, 5, 3, 4, 4, 3]);
-student.printsStudentInfo();
+student.printStudentInfo();
