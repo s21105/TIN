@@ -7,9 +7,9 @@ let student = {
         return this.firstName + " " + this.lastName;
     },
     set fullName(name) {
-        let word = name.split(' ')
-        this.firsName = word[0]
-        this.lastName = word[1]
+        let word = name.split(' ');
+        this.firsName = word[0];
+        this.lastName = word[1];
     },
     get gradesAvg() {
          return this.grades.reduce((a,b)=>a+b)/this.grades.length;
